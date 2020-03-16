@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="597c702c-9b28-435d-a124-13a6821705db" name="Default Changelist" comment="" />
+    <list default="true" id="597c702c-9b28-435d-a124-13a6821705db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM_Bean/src/main/java/com/ailian/bean/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM_Bean/src/main/java/com/ailian/bean/Order.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -296,7 +299,7 @@
       <workItem from="1583582223355" duration="28269000" />
       <workItem from="1584009087784" duration="26000" />
       <workItem from="1584205694560" duration="18382000" />
-      <workItem from="1584383114480" duration="946000" />
+      <workItem from="1584383114480" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="自己的项目测试一下idea中想Git提交代码">
       <created>1584383757621</created>
@@ -305,7 +308,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584383757621</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="自己的项目测试一下idea中想Git提交代码">
+      <created>1584384100696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584384100696</updated>
+    </task>
+    <task id="LOCAL-00003" summary="自己的项目测试一下idea中想Git提交代码">
+      <created>1584384145359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584384145359</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,10 +349,10 @@
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="304" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.960@0.23.1680.960" timestamp="1582988772111" />
-    <state x="396" y="193" key="#com.intellij.ide.util.MemberChooser" timestamp="1584224347214">
+    <state x="396" y="193" key="#com.intellij.ide.util.MemberChooser" timestamp="1584384328280">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="396" y="193" key="#com.intellij.ide.util.MemberChooser/0.23.1680.960@0.23.1680.960" timestamp="1584224347214" />
+    <state x="396" y="193" key="#com.intellij.ide.util.MemberChooser/0.23.1680.960@0.23.1680.960" timestamp="1584384328280" />
     <state x="439" y="168" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1582717758966">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
@@ -352,10 +369,10 @@
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="578" y="257" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.960@0.23.1680.960" timestamp="1583745770974" />
-    <state x="422" y="105" key="CommitChangelistDialog2" timestamp="1584384100577">
+    <state x="422" y="105" key="CommitChangelistDialog2" timestamp="1584384145259">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="422" y="105" key="CommitChangelistDialog2/0.23.1680.960@0.23.1680.960" timestamp="1584384100577" />
+    <state x="422" y="105" key="CommitChangelistDialog2/0.23.1680.960@0.23.1680.960" timestamp="1584384145259" />
     <state width="1406" height="185" key="GridCell.Tab.0.bottom" timestamp="1584225185175">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
@@ -428,10 +445,10 @@
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="328" y="84" key="SettingsEditor/0.23.1680.960@0.23.1680.960" timestamp="1584383252369" />
-    <state x="462" y="231" key="Vcs.Push.Dialog.v2" timestamp="1584384026823">
+    <state x="462" y="231" key="Vcs.Push.Dialog.v2" timestamp="1584384337189">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
-    <state x="462" y="231" key="Vcs.Push.Dialog.v2/0.23.1680.960@0.23.1680.960" timestamp="1584384026823" />
+    <state x="462" y="231" key="Vcs.Push.Dialog.v2/0.23.1680.960@0.23.1680.960" timestamp="1584384337189" />
     <state x="519" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1582988667383">
       <screen x="0" y="23" width="1680" height="960" />
     </state>

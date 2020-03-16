@@ -25,6 +25,9 @@ public class Order implements Serializable {
     private Product product;
     private Member member;
 
+    public Order() {
+    }
+
     private List<Traveller> travellers;
 
     public String getCode() {
