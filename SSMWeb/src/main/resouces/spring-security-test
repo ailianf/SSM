@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/security
+    http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <!-- 配置不需要过滤的资源 -->
+    <security:http security="none" pattern="/login.jsp"/>
+    <security:http security="none" pattern="/test.jsp"/>
+    <security:http security="none" pattern="/css"/>
+    <security:http security="none" pattern="/img"/>
+    <security:http security="none" pattern="plugins"/>
+
+    <security:http auto-config="true" use-expressions="false">
+            <!-- 配置资料连接，标识任意路径都需要ROLE_USER权限 -->
+            <security:intercept-url access="ROLE_ADMIN,ROLE_USER" pattern="/**"/>
+            <!-- 自定义登录页面    自定义登录页面
+                                 登录页面用户名固定：username； 密码：password；action：login
+                                 用户权限校验失败后会跳转到的页面
+                                 default-target-url:登录成功后跳转的页面 -->
+            <security:form-login login-page="/login.jsp" login-processing-url="/login"
+                                 username-parameter="username" password-parameter="password"
+                                 authentication-failure-url="/test.jsp"
+                                 default-target-url="/index.jsp"
+                                 />
+
+            <!-- 退出登录，     是否删除session            退出处理连接          退出成功页面
+             注：退出操作，只需要连接到logout即可退出当前用户 -->
+            <security:logout invalidate-session="true" logout-url="/logout.do" logout-success-url="/login.jsp"/>
+
+            <!-- CSRF:Cross-site request forgery 跨站请求伪造 默认是开启状态，在这里需要关闭 -->
+            <security:csrf disabled="true"/>
+        </security:http>
+
+    <!-- 配置文件认证 -->
+    <security:authentication-manager>
+        <security:authentication-provider>
+            <security:user-service>
+                <security:user name="user" authorities="ROLE_USER" password="{noop}user"/>
+                <security:user name="admin" authorities="ROLE_ADMIN" password="{noop}admin"/>
+            </security:user-service>
+        </security:authentication-provider>
+    </security:authentication-manager>
+
+</beans>
