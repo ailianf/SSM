@@ -28,6 +28,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -53,6 +60,7 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=gb2312" />
   </component>
   <component name="ProjectId" id="1YChGqWbCQEhEKbVwOFUgspMb1R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -288,12 +296,24 @@
       <workItem from="1583582223355" duration="28269000" />
       <workItem from="1584009087784" duration="26000" />
       <workItem from="1584205694560" duration="18382000" />
-      <workItem from="1584383114480" duration="139000" />
+      <workItem from="1584383114480" duration="946000" />
     </task>
+    <task id="LOCAL-00001" summary="自己的项目测试一下idea中想Git提交代码">
+      <created>1584383757621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584383757621</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="自己的项目测试一下idea中想Git提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="自己的项目测试一下idea中想Git提交代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="168" key="#Inspections" timestamp="1582551876486">
@@ -332,6 +352,10 @@
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="578" y="257" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.960@0.23.1680.960" timestamp="1583745770974" />
+    <state x="422" y="105" key="CommitChangelistDialog2" timestamp="1584383754322">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="422" y="105" key="CommitChangelistDialog2/0.23.1680.960@0.23.1680.960" timestamp="1584383754322" />
     <state width="1406" height="185" key="GridCell.Tab.0.bottom" timestamp="1584225185175">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
@@ -404,6 +428,10 @@
       <screen x="0" y="23" width="1680" height="960" />
     </state>
     <state x="328" y="84" key="SettingsEditor/0.23.1680.960@0.23.1680.960" timestamp="1584383252369" />
+    <state x="462" y="231" key="Vcs.Push.Dialog.v2" timestamp="1584384026823">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="462" y="231" key="Vcs.Push.Dialog.v2/0.23.1680.960@0.23.1680.960" timestamp="1584384026823" />
     <state x="519" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1582988667383">
       <screen x="0" y="23" width="1680" height="960" />
     </state>
